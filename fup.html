@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head id="head">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Normal CSS -->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/fa/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>POLRO V1.0</title>
+    <center style="font-size: 64px;color: #cc484d;">POLRO V1.0</center>
+</head>
+
+<body id="body">
+
+<br><br>
+    <div class="container" style="background-image: url('bg.png'); background-repeat: no-repeat; background-size: 100% 100%; ">
+        <div class="row">
+          <div id="row1" class="col-6">
+            <script type="text/javascript">
+              function getfolder(e) {
+                var files = e.target.files;
+                var path = files[0].webkitRelativePath;
+                var Folder = path.split("/");
+                alert(Folder[0]);
+                
+              }
+            </script>
+            
+            <input type="file" id="flup" onchange="getfolder(event)" webkitdirectory mozdirectory msdirectory odirectory directory multiple />
+          </div>
+          <div id="row1" class="col-6">
+            <button style="background-color: #622efb;" type="submit" class="btn"><a href=analysis_selection.html
+              style="color: black;">ANALYSIS</a></button>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+          </div> 
+        </div>
+        
+          <br>
+          
+        <div class="submitbtn">
+            <button style="background-color: #622efb;" type="submit" class="btn"><a href=index.html
+                    style="color: black;">RESET</a></button>
+        </div>
+    </div>
+
+    </form>
+
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>
