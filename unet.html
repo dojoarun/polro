@@ -16,49 +16,74 @@
 
 <body id="body" style="background-image: url('bg.png'); background-repeat: no-repeat; background-size: 100% 100%;">
 
+    <div class="row" id="row1">
+        <div class="col">
+            <button style="background-color: #622efb;" type="submit" class="btn"><a href=analysis_selection.html
+                style="color: black;">BACK</a></button>
+        </div>
+    </div>
+
+
           <div class="row" id="row1">
               <div class="col-4">
                 <button style="background-image: url(o_folder.png); background-repeat: no-repeat;" type="submit" class="btn"><a href=fup.html
-                    style="color: black;">Orginal</a></button>
+                    style="color: black;">Polyp Image</a></button>
               </div>
             
               <div class="col-4">
-                <button style="background-color: #622efb;" type="submit" class="btn"><a href=fup.html
-                    style="color: black;">BACK</a></button>
+                Polyp Status : <form><input type="truthvalue" value=""></form>
               </div>
               <div class="col-4">
                 <button style="background-image: url(g_folder.png); background-repeat: no-repeat;" type="submit" class="btn"><a href=fup.html
-                    style="color: black;">Ground Truth</a></button>
+                    style="color: black;">Result</a></button>
               </div>
               <br><br><br><br>
           </div>
           <div class="row" id="row1">
           
             <div class="col">
-              <button style="background-color: #622efb;" type="submit" class="btn"><a href=unet.html
-                  style="color: black;">U Net</a></button>
+              <button style="background-color: #622efb;" type="submit" class="btn">U Net</button>
             </div>
-            <br><br><br><br>
         </div>
+        <br>
         <div class="row" id="row1">
           
             <div class="col-6">
-              <button style="background-color: #622efb;" type="submit" class="btn"><a href=cnn.html
-                  style="color: black;">CNN</a></button>
+                <label for="Accuracy">Accuracy :</label>
             </div>
-            <br><br><br><br>
-            <div class="col-6">
-                <button style="background-color: #622efb;" type="submit" class="btn"><a href=vgg16.html
-                    style="color: black;">VGG 16</a></button>
-              </div>
+            <div class="col-4">
+                <input type="text" class="form-control">
+            </div>
         </div>
+        <br>
         <div class="row" id="row1">
           
-            <div class="col">
-              <button style="background-color: #622efb;" type="submit" class="btn"><a href=allnet.html
-                  style="color: black;">All Results</a></button>
+            <div class="col-6">
+                <label for="Specificity">Specificity :</label>
             </div>
-            <br><br><br><br>
+            <div class="col-4">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row" id="row1">
+          
+            <div class="col-6">
+                <label for="Sensitivity">Sensitivity :</label>
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row" id="row1">
+          
+            <div class="col-6">
+                <label for="F1score">F1 Score :</label>
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control">
+            </div>
         </div>
         
           
